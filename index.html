@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>M. Bilal Pratama | Aspiring Web Developer</title>
+    <meta
+      name="description"
+      content="CV M. Bilal Pratama, Aspiring Web Developer, mahasiswa Sistem dan Teknologi Informasi Universitas Muhammadiyah Kotabumi."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Mini navigasi (muncul setelah halaman pembuka) -->
+    <div class="minibar" id="minibar" aria-label="Navigasi cepat">
+      <a href="#top" class="mb-top">Top ↑</a>
+      <a href="#about" class="mb-link">About</a>
+      <a href="#skills" class="mb-link">Skills</a>
+      <a href="#project" class="mb-link">Project</a>
+      <a href="#education" class="mb-link">Education</a>
+      <a href="#contact" class="mb-link">Contact</a>
+    </div>
+
+    <!-- ============ 001 / INTRO ============ -->
+    <header class="hero" id="top">
+      <div class="panel">
+        <div class="topbar fade-in" style="--d: 0.9s">
+          <a href="#top" class="monogram">MBP</a>
+          <a href="#about" class="tb-label">Profile</a>
+          <button
+            class="nav-toggle"
+            id="navToggle"
+            aria-label="Buka menu"
+            aria-expanded="false"
+            aria-controls="nav"
+          >
+            <span></span><span></span>
+          </button>
+          <nav class="nav" id="nav" aria-label="Navigasi utama">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#project">Project</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+          </nav>
+        </div>
+
+        <h1 class="name" aria-label="M. Bilal Pratama">
+          <span class="line"><span>M. Bilal</span></span>
+          <span class="line"><span>Pratama</span></span>
+        </h1>
+
+        <div class="info fade-in" style="--d: 1.1s">
+          <p><strong>Aspiring Web Developer</strong></p>
+          <p>
+            Mahasiswa semester 3 Program Studi Sistem dan Teknologi Informasi,
+            Universitas Muhammadiyah Kotabumi.
+          </p>
+        </div>
+
+        <div class="grey-block" aria-hidden="true"></div>
+
+        <figure class="photo" id="photo">
+          <img
+            src="assets/profile.jpg"
+            alt="Foto formal M. Bilal Pratama"
+            loading="eager"
+          />
+          <figcaption class="placeholder">
+            <span>Foto formal</span>
+            <small>assets/profile.jpg</small>
+          </figcaption>
+        </figure>
+
+        <p class="vertical fade-in" style="--d: 1.2s">
+          Aspiring Web Developer — Universitas Muhammadiyah Kotabumi
+        </p>
+
+        <div class="foot fade-in" style="--d: 1.2s">
+          <span class="big-num" aria-hidden="true">001</span>
+          <a class="arrow" href="#about" aria-label="Lanjut ke About Me">
+            <svg
+              viewBox="0 0 24 24"
+              width="22"
+              height="22"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.6"
+              stroke-linecap="square"
+            >
+              <path d="M4 12h16M14 6l6 6-6 6" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- ============ 002 / ABOUT ============ -->
+      <section class="sec" id="about">
+        <div class="wrap sec-grid">
+          <div class="sec-label rv"><span>002</span><span>About Me</span></div>
+          <div class="sec-body">
+            <h2 class="sec-title mask"><span>Tentang saya</span></h2>
+            <p class="statement rv" style="--d: 0.1s">
+              Mahasiswa semester 3 Program Studi Sistem dan Teknologi Informasi
+              yang memiliki minat dalam pengembangan web. Memiliki pengalaman
+              mengembangkan KokoRBLX, sebuah website marketplace bertema Roblox
+              dengan integrasi Supabase, notifikasi pesanan melalui Telegram
+              Bot, serta pengiriman email otomatis menggunakan EmailJS. Terus
+              mengembangkan keterampilan web development melalui proyek mandiri
+              dan pemanfaatan AI sebagai alat bantu belajar dan pengembangan.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ 003 / SKILLS ============ -->
+      <section class="sec" id="skills">
+        <div class="wrap sec-grid">
+          <div class="sec-label rv"><span>003</span><span>Skills</span></div>
+          <div class="sec-body">
+            <h2 class="sec-title mask"><span>Keterampilan</span></h2>
+            <dl class="skills">
+              <div class="skill rv">
+                <dt>Web Development</dt>
+                <dd>HTML, CSS, JavaScript</dd>
+              </div>
+              <div class="skill rv">
+                <dt>Database &amp; Backend Service</dt>
+                <dd>Supabase</dd>
+              </div>
+              <div class="skill rv">
+                <dt>Email Service</dt>
+                <dd>EmailJS</dd>
+              </div>
+              <div class="skill rv">
+                <dt>Tools</dt>
+                <dd>GitHub</dd>
+              </div>
+              <div class="skill rv">
+                <dt>Deployment</dt>
+                <dd>Vercel</dd>
+              </div>
+              <div class="skill rv">
+                <dt>Integrasi</dt>
+                <dd>Telegram Bot Integration</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ 004 / SELECTED PROJECT ============ -->
+      <section class="sec" id="project">
+        <div class="wrap">
+          <div class="dark-panel">
+            <div class="sec-grid">
+              <div class="sec-label rv">
+                <span>004</span><span>Selected Project</span>
+              </div>
+              <div class="sec-body">
+                <h2 class="project-title mask"><span>KokoRBLX</span></h2>
+                <p class="project-sub rv">Website Marketplace Roblox</p>
+
+                <div class="project-cols">
+                  <ul class="project-list">
+                    <li class="rv">
+                      Mengembangkan website marketplace bertema Roblox dengan
+                      katalog produk dan alur pemesanan.
+                    </li>
+                    <li class="rv">
+                      Mengintegrasikan Supabase untuk pengelolaan database.
+                    </li>
+                    <li class="rv">
+                      Mengembangkan admin panel untuk membantu pengelolaan
+                      produk dan pesanan.
+                    </li>
+                    <li class="rv">
+                      Mengintegrasikan Telegram Bot untuk notifikasi pesanan
+                      masuk.
+                    </li>
+                    <li class="rv">
+                      Menggunakan EmailJS untuk mengirim email otomatis kepada
+                      pembeli setelah pesanan selesai.
+                    </li>
+                    <li class="rv">
+                      Melakukan deployment website menggunakan Vercel.
+                    </li>
+                  </ul>
+
+                  <div class="project-side rv">
+                    <p class="side-title">Proses Pengembangan</p>
+                    <p>
+                      Memanfaatkan AI sebagai alat bantu coding sambil
+                      mempelajari struktur kode, integrasi layanan, dan alur
+                      kerja fitur yang dikembangkan.
+                    </p>
+                    <div class="btn-row">
+                      <a
+                        class="btn"
+                        href="https://koko-rbx.vercel.app/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >Live Demo</a
+                      >
+                      <a
+                        class="btn"
+                        href="https://github.com/kokorobuxx-stack/kokorobx"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >Repository</a
+                      >
+                      <a
+                        class="btn"
+                        href="https://koko-rbx.vercel.app/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >Portofolio</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ 005 / EDUCATION ============ -->
+      <section class="sec" id="education">
+        <div class="wrap sec-grid">
+          <div class="sec-label rv"><span>005</span><span>Education</span></div>
+          <div class="sec-body">
+            <h2 class="sec-title mask">
+              <span>Universitas Muhammadiyah Kotabumi</span>
+            </h2>
+            <p class="statement rv" style="--d: 0.1s">
+              Program Studi Sistem dan Teknologi Informasi — Mahasiswa semester
+              3.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ 006 / EXPERIENCE & LEARNING JOURNEY ============ -->
+      <section class="sec" id="journey">
+        <div class="wrap sec-grid">
+          <div class="sec-label rv">
+            <span>006</span><span>Experience &amp; Learning Journey</span>
+          </div>
+          <div class="sec-body">
+            <h2 class="sec-title mask"><span>Proses belajar</span></h2>
+            <p class="statement rv" style="--d: 0.1s">
+              Belum memiliki pengalaman organisasi formal, berfokus pada
+              pengembangan keterampilan dan proyek mandiri.
+            </p>
+            <p class="statement statement-soft rv" style="--d: 0.2s">
+              Terus mengembangkan keterampilan web development melalui proyek
+              mandiri dan pemanfaatan AI sebagai alat bantu belajar dan
+              pengembangan.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ 007 / CONTACT ============ -->
+      <section class="sec" id="contact">
+        <div class="wrap sec-grid">
+          <div class="sec-label rv"><span>007</span><span>Contact</span></div>
+          <div class="sec-body">
+            <h2 class="sec-title mask"><span>Hubungi saya</span></h2>
+            <a class="contact-mail rv" href="mailto:kokorobuxx@gmail.com"
+              >kokorobuxx@gmail.com</a
+            >
+            <ul class="contact-list">
+              <li class="rv">
+                <span>GitHub</span>
+                <a
+                  href="https://github.com/kokorobuxx-stack/kokorobx"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >github.com/kokorobuxx-stack/kokorobx</a
+                >
+              </li>
+              <li class="rv">
+                <span>Live Demo</span>
+                <a
+                  href="https://koko-rbx.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >koko-rbx.vercel.app</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="wrap footer-inner">
+        <span>M. Bilal Pratama</span>
+        <a href="#top">Kembali ke atas ↑</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
